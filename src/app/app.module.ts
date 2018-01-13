@@ -6,12 +6,14 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 
 import { CustomMaterialModule } from './custom-material/custom-material.module';
+import { NavbarComponent } from './navbar/navbar.component';
 import { AppComponent } from './app.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
   imports: [
     //material module
